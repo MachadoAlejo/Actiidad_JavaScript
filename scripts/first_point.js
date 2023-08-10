@@ -3,8 +3,8 @@ function calculateTriangleArea(base, height) {
     return area;
 }
 
-const base = parseFloat(prompt("Ingrese la base del triangulo"));
-const height = parseFloat(prompt("Ingrese la altura del triangulo"));
+let base = parseFloat(prompt("Ingrese la base del triangulo"));
+let height = parseFloat(prompt("Ingrese la altura del triangulo"));
 
 if (isNaN(base) || isNaN(height))  {
     alert ("Por favor ingrese numeros validos");
